@@ -1,15 +1,14 @@
 
-h1#intro {
-  color: blue;
+#intro {
   font-family: Georgia, serif;
 }
   
-#firsttext {
+.firsttext {
   background-color: rgb(213,195,181)
   color: green;
   font-family: Georgia,serif;
 }
-#mainbody {
+.mainbody {
   background-color: #a8db4d;
   font-family: Calibri, sans-serif;
 }
