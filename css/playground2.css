@@ -1,17 +1,16 @@
-body {
-   background-color: lightblue;
-  }
+
 h1#intro {
   color: blue;
   font-family: Georgia, serif;
 }
   
-p#firsttext {
- color: green;
+div#firsttext {
+  background-color: rgb(213,195,181)
+  color: green;
   font-family: Georgia,serif;
 }
-p#mainbody {
-  color: darkblue;
+div#mainbody {
+  background-color: #a8db4d;
   font-family: Calibri, sans-serif;
 }
 
