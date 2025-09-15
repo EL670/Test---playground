@@ -4,6 +4,9 @@
   color: rebeccapurple;
   font-size. 200%;
 }
+h1.intro {
+  border-color: #0088dd;
+}  
   
 .firsttext {
   background-color: rgb(213,195,181)
