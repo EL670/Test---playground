@@ -1,13 +1,18 @@
 body {
    background-color: lightblue;
   }
-h1 {
+h1#intro {
   color: blue;
   font-family: Georgia, serif;
-}  
-p {
+}
+  
+p#firsttext {
  color: green;
   font-family: Georgia,serif;
+}
+p#mainbody {
+  color: darkblue;
+  font-family: Calibri, sans-serif;
 }
 
 
