@@ -4,8 +4,11 @@
   color: rebeccapurple;
   font-size. 200%;
 }
-h1.intro {
-  border-color: #0088dd;
+.header-box {
+  border: 2px solid black;
+  padding: 10 px;
+  margin: 20px;
+  back-ground-color: #f0f0f0;
 }  
   
 .firsttext {
