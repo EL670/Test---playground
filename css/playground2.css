@@ -4,12 +4,12 @@ h1#intro {
   font-family: Georgia, serif;
 }
   
-div#firsttext {
+#firsttext {
   background-color: rgb(213,195,181)
   color: green;
   font-family: Georgia,serif;
 }
-div#mainbody {
+#mainbody {
   background-color: #a8db4d;
   font-family: Calibri, sans-serif;
 }
