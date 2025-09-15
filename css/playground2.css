@@ -1,14 +1,18 @@
 body {
    background-color: lightblue;
-  font-family: Calibri;
-}
+  }
 h1 {
   color: blue;
   font-family: Arial, sans-serif;
 }  
 p {
+<<<<<<< Updated upstream
   color: magenta;
   font-family: Georgia,serif;
+=======
+  color: green;
+  font-family: georgian,serif;
+>>>>>>> Stashed changes
 }
 
 
