@@ -2,15 +2,12 @@
 .intro {
   font-family: Times, serif;
   color: rebeccapurple;
-  font-size. 200%;
-}
-.header-box {
+  font-size. 200
   border: 2px solid black;
   padding: 10 px;
   margin: 20px;
   back-ground-color: #f0f0f0;
-}  
-  
+}
 .firsttext {
   background-color: rgb(213,195,181)
   color: green;
