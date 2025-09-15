@@ -1,6 +1,7 @@
 
-#intro {
-  font-family: Georgia, serif;
+.intro {
+  font-family: Times, serif;
+  color: rebeccapurple;
 }
   
 .firsttext {
@@ -10,6 +11,7 @@
 }
 .mainbody {
   background-color: #a8db4d;
+  color: black;
   font-family: Calibri, sans-serif;
 }
 
