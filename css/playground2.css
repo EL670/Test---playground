@@ -3,12 +3,12 @@
   font-family: Times, serif;
   color: rebeccapurple;
   font-size: 200%;
-  border: 2px solid black;
+  border: 5px solid blue;
   padding: 10 px;
   margin: 10px;
   width: 50%;
   float: left;
-  back-ground-color: #f0f0f0;
+  back-ground-color: magenta;
 }
 .firsttext {
   background-color: rgb(213,195,181)
