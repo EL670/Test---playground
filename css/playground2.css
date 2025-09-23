@@ -4,10 +4,10 @@
   color: rebeccapurple;
   font-size: 200%;
   border: 5px solid blue;
-  padding: 20 px;
-  margin: 10px;
+  padding: 10 px;
+  margin: 15px;
   width: 50%;
-  height: 200px;
+  height: 50px;
   float: left;
   back-ground-color: magenta;
 }
@@ -15,7 +15,7 @@
   background-color: #eee8aa
   color: green;
   border: none;
-  font-family: Georgia,serif;
+  font-family: Arial,sans-serif;
 }
 .mainbody {
   background-color: #a8db4d;
