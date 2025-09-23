@@ -4,9 +4,10 @@
   color: rebeccapurple;
   font-size: 200%;
   border: 5px solid blue;
-  padding: 10 px;
+  padding: 20 px;
   margin: 10px;
   width: 50%;
+  height: 10%;
   float: left;
   back-ground-color: magenta;
 }
