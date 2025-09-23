@@ -14,7 +14,7 @@
 .firsttext {
   background-color: #eee8aa
   color: green;
-  border: none;
+  border: 6 px pink;
   font-family: Arial,sans-serif;
 }
 .mainbody {
