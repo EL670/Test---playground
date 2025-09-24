@@ -1,21 +1,20 @@
 
 .intro {
   font-family: Times, serif;
-  color: rebeccapurple;
+  color: black;
   font-size: 200%;
   border: 5px solid blue;
   padding: 10 px;
   margin: 5px;
-  width: 50%;
-  height: 40px;
-  float: right;
   background-color: magenta;
 }
 .firsttext {
   background-color: #eee8aa
   color: green;
   border: 6 px pink;
+  width: 30%;
   font-family: Arial,sans-serif;
+  float: left;
 }
 .mainbody {
   background-color: #a8db4d;
