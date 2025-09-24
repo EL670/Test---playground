@@ -11,7 +11,7 @@
 .firsttext {
   background-color: #e3dac9
   color: blue;
-  border: 6 px pink;
+  border: none;
   width: 30%;
   font-family: Arial,sans-serif;
   float: left;
