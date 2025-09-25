@@ -11,14 +11,16 @@
 .firsttext {
   background-color: #e3dac9;
   color: blue;
-  border: 2px black;
+  border: 5px black;
   width: 30%;
   font-family: Arial,sans-serif;
   float: left;
 }
+/*try distinguish by using border */
 .mainbody {
   background-color: #a8db4d;
   color: black;
+  border: #536878;
   font-family: Calibri, sans-serif;
 }
 
