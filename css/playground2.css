@@ -10,7 +10,7 @@
 }
 /* background-color - Papaya Whip */
 .firsttext {
-  background-color: ;
+  background-color:#ffefd5;
   color: blue;
   border: 5px black;
   width: 30%;
@@ -19,9 +19,9 @@
 }
 /*try distinguish by using border */
 .mainbody {
-  background-color: Light Sky Blue;
+  background-color: #87cefa;
   color: black;
-  border: #536878;
+  border:  5px #536878;
   font-family: Calibri, sans-serif;
 }
 
