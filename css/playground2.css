@@ -21,6 +21,8 @@
 .mainbody {
   background-color: #87cefa;
   color: black;
+  padding: 5px;
+  margin: 5px;
   border:  5px #536878;
   font-family: Calibri, sans-serif;
 }
