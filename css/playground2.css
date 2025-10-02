@@ -26,5 +26,13 @@
   border:  5px solid #536878;
   font-family: Calibri, sans-serif;
 }
-
+.floatleft {
+  float: left;
+}
+#img1 {
+  background-color: yellow;
+  width: 20%;
+  float: left;
+  margin: 20 px
+}  
 
