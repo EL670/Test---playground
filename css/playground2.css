@@ -91,7 +91,7 @@ img {
     background-repeat:repeat; /* Repeats image vertically and horizontally */
     background-size: 50%;
     background-position: top left; /* Centers the image */
-    
+    opacity: 1;
     height: 100vh; /* Sets the height to full viewport height */
     margin: 0; /* Removes default margin */
     z-index: 10;
@@ -114,7 +114,8 @@ img {
 #main-nav ul li {
   float: left;
   position: relative;
-  left: 50%;
+  left: 25%;
+  border: 2px dashed black;
 }
 
 #main-nav ul li a {
