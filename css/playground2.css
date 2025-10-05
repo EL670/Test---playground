@@ -76,7 +76,7 @@ img {
   min-width: 50%;
   min-height: 50%;
 }
-body {
+.body-background{
     background-image: url('/media/20250916_Image2.png');
     background-repeat:repeat; /* Repeats image vertically and horizontally */
     background-size: 50%;
