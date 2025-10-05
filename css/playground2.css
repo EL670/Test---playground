@@ -57,3 +57,28 @@ img {
   height: auto;
   object-fit: contain;
 }
+.bg {
+  position: fixed;
+  top: -50%;
+  left: -50%:
+  /* Fill the page */
+  width: 200%;
+  height: 200%;
+  /* z-index: -1; */;
+}
+.bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+html{
+  background: url(media/20250916_Image2.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
