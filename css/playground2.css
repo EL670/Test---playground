@@ -68,8 +68,16 @@
   height: auto;
   padding-left: 3px;
   float: left;
-
+  
+  
 }
+.img-float-generic img {
+  max-width: 420px;
+  max-height: 240px;
+  overflow: hidden;
+  float: left;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -141,6 +149,7 @@ img {
   text-decoration: none;
   color: black;
   font-family: Calibri, Gill Sans;
+  border-radius: 4px;
 }
 #main-nav ul li a:hover {
   background-color: #ccc;
