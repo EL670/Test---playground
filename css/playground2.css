@@ -44,3 +44,16 @@
   left: 30px;
   
 }
+.img2-container{
+  width: 200px;
+  height: 200px;
+  padding-left: 10px;
+  overflow: hidden;
+  float: right;
+  padding: 50px;
+}
+img {
+  width: 100 px;
+  height: auto;
+  object-fit: contain;
+}
