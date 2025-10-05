@@ -39,8 +39,18 @@
   float: left;
   padding: 50px;
   z-index:1;
-
-}  
+} 
+/* Try something else for Page2 */
+.back-img {
+  background-image: url("/media/20250916_Image2.png");
+  background-repeat: repeat;
+  background-size: cover;
+} 
+.p2nav-container {
+  position: absolute;
+  margin: 10 px;
+  width: auto;
+}
 .justtext {
   color: black;
   padding: 10px;
