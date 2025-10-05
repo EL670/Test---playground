@@ -28,9 +28,17 @@
 .floatleft {
   float: left;
 }
-#img1 {
+.img1-container {
   float: left;
   padding-left: 20px;
+  width: 350px;
+  height: auto;
+  padding-left: 10px;
+  overflow: hidden;
+  float: left;
+  padding: 50px;
+  z-index:10;
+
 }  
 .justtext {
   color: black;
@@ -51,9 +59,11 @@
   overflow: hidden;
   float: left;
   padding: 50px;
+  z-index:10;
 }
+
 img {
-  width: 30%;
+  width: 100%;
   height: auto;
   object-fit: contain;
 }
@@ -84,6 +94,7 @@ img {
     
     height: 100vh; /* Sets the height to full viewport height */
     margin: 0; /* Removes default margin */
+    z-index: 10;
 }
 #main-nav {
   float: left;
@@ -97,7 +108,7 @@ img {
   padding: 0;
   float: left;
   position: relative;
-  left:50%;
+  left:25%;
 }
 
 #main-nav ul li {
@@ -115,4 +126,13 @@ img {
 #main-nav ul li a:hover {
   background-color: #ccc;
   color: #c31616;
+}
+.text-container-2{
+  background-color:antiquewhite;
+  padding: 3px;
+  margin: 5 px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  color:rgb(31, 105, 174);
+  font-size: 150%;
 }
