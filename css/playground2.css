@@ -85,3 +85,34 @@ img {
     height: 100vh; /* Sets the height to full viewport height */
     margin: 0; /* Removes default margin */
 }
+#main-nav {
+  float: left;
+  width: 100%;
+  background-color: #9d1d1d;
+}
+
+#main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  position: relative;
+  left:50%;
+}
+
+#main-nav ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+}
+
+#main-nav ul li a {
+  padding: 10px 25px;
+  display: block;
+  text-decoration: none;
+  color: #ccc;
+}
+#main-nav ul li a:hover {
+  background-color: #ccc;
+  color: #c31616;
+}
