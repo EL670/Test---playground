@@ -76,9 +76,12 @@ img {
   min-width: 50%;
   min-height: 50%;
 }
-html{
-  background: url(media/20250916_Image2.png) no-repeat center center fixed;
-  background-size: cover;
-  height: 100%;
-  overflow: hidden;
+body {
+    background-image: url('/media/20250916_Image2.png');
+    background-repeat:repeat; /* Repeats image vertically and horizontally */
+    background-size: 50%;
+    background-position: top left; /* Centers the image */
+    
+    height: 100vh; /* Sets the height to full viewport height */
+    margin: 0; /* Removes default margin */
 }
