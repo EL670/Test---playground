@@ -8,6 +8,50 @@
   margin: 5px;
   background-color: #98fb98;
 }
+
+#main-nav {
+  float: left;
+  width: 100%;
+  background-color: #9bef6691;
+}
+
+#main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  position: relative;
+  left: 0px;
+}
+
+#main-nav ul li {
+  float: left;
+  position: relative;
+  left: 25%;
+  border: 2px dashed black;
+}
+
+#main-nav ul li a {
+  padding: 10px 25px;
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-family: Calibri, Gill Sans;
+  border-radius: 4px;
+}
+#main-nav ul li a:hover {
+  background-color: #ccc;
+  color: black;
+}
+.text-container-2{
+  background-color:antiquewhite;
+  padding: 3px;
+  margin: 5 px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  color:rgb(31, 105, 174);
+  font-size: 150%;
+}
 /* background-color - Papaya Whip */
 .firsttext {
   background-color:#ffefd5;
@@ -131,46 +175,4 @@ img {
     margin: 0; /* Removes default margin */
     z-index: -1;
 }
-#main-nav {
-  float: left;
-  width: 100%;
-  background-color: #9bef6691;
-}
 
-#main-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  float: left;
-  position: relative;
-  left: 0px;
-}
-
-#main-nav ul li {
-  float: left;
-  position: relative;
-  left: 25%;
-  border: 2px dashed black;
-}
-
-#main-nav ul li a {
-  padding: 10px 25px;
-  display: block;
-  text-decoration: none;
-  color: black;
-  font-family: Calibri, Gill Sans;
-  border-radius: 4px;
-}
-#main-nav ul li a:hover {
-  background-color: #ccc;
-  color: black;
-}
-.text-container-2{
-  background-color:antiquewhite;
-  padding: 3px;
-  margin: 5 px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 500;
-  color:rgb(31, 105, 174);
-  font-size: 150%;
-}
