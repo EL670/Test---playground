@@ -5,7 +5,7 @@
   font-size: 200%;
   border: 1px solid rgb(9, 9, 132);
   padding: 5 px;
-  margin: 5px;
+  margin: 0%;
   background-color: #98fb98;
 }
 
@@ -14,6 +14,7 @@
   width: 100%;
   background-color: #9bef6691;
   padding: 10 px;
+  border: 1px solid blue;
 }
 
 #main-nav ul {
