@@ -13,6 +13,7 @@
   float: left;
   width: 100%;
   background-color: #9bef6691;
+  padding: 10 px;
 }
 
 #main-nav ul {
@@ -43,6 +44,11 @@
   background-color: #ccc;
   color: black;
 }
+.clear-left {
+  clear: left;
+  margin: 10px;
+  padding: 5px;
+}
 .text-container-2{
   background-color:antiquewhite;
   padding: 3px;
@@ -56,8 +62,8 @@
 .firsttext {
   background-color:#ffefd5;
   color: blue;
-  border: 5px solid black;
-  width: 30%;
+  border: 3px solid black;
+  width: 50%;
   font-family: Arial,sans-serif;
   
 }
@@ -70,9 +76,11 @@
   border:  5px solid #536878;
   font-family: Calibri, sans-serif;
 }
+/*Need this for Video link to be proportional*/
 .floatleft {
   float: left;
 }
+/* For Page2 */
 .img1-container {
   float: left;
   padding-left: 20px;
@@ -84,7 +92,7 @@
   padding: 50px;
   z-index:1;
 } 
-/* Try something else for Page2 */
+/* Try something else for Page2 - use image as background */
 .back-img {
   background-image: url("/media/20250916_Image2.png");
   background-repeat: repeat;
