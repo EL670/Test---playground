@@ -30,7 +30,7 @@
   float: left;
   position: relative;
   left: 25%;
-  border: 2px dashed black;
+  border: 2px solid black;
 }
 
 #main-nav ul li a {
@@ -40,10 +40,13 @@
   color: black;
   font-family: Calibri, Gill Sans;
   border-radius: 4px;
+  
 }
 #main-nav ul li a:hover {
   background-color: #ccc;
   color: black;
+  text-transform:uppercase;
+  font-weight:600;
 }
 .clear-left {
   clear: left;
