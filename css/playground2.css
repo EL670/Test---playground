@@ -23,7 +23,7 @@
   padding: 0;
   float: left;
   position: relative;
-  left: 50%;
+  right: 50%;
 }
 
 #main-nav ul li {
