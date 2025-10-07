@@ -29,7 +29,7 @@
 #main-nav ul li {
   float: left;
   position: relative;
-  left: 25%;
+  left: 50%;
   border: 2px solid black;
 }
 
