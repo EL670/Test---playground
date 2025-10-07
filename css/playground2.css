@@ -23,7 +23,6 @@
   padding: 0;
   float: left;
   position: relative;
-  right: 50%;
 }
 
 #main-nav ul li {
@@ -31,6 +30,8 @@
   position: relative;
   left: 0px;
   border: 2px solid black;
+  right: 50%;
+  
 }
 
 #main-nav ul li a {
