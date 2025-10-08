@@ -159,18 +159,28 @@
 }
 /* try float inline start */
 .floatstart_img {
-  width: 240 px;
+  width: 420px;
   height: auto;
   padding: 3px;
   float:inline-start;
 }
 
+.text_adjust_inline{
+  padding-left: 425px;
+}
 /*Just in case we need a container */
 .letscontain {
   float: left;
   width: 100%;
   position: relative;
 }
+.img-contain {
+  max-width: 420px;
+  height: auto;
+  padding: 3px;
+  float: left;
+}
+/*above is to see if we can float image to left of indented text */
 .img-float-generic img {
   max-width: 420px;
   max-height: 240px;
