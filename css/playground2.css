@@ -151,18 +151,20 @@
 }
 
 /* will try float inline */
-.floatend_img {
+.floatright_img {
   width: 420 px;
   height: auto;
   padding: 3px;
-  float: inline-end;
+  float: right;
+  display: flex;
 }
 /* try float inline start */
-.floatstart_img {
+.floatleft_img {
   width: 420px;
   height: auto;
   padding: 3px;
-  float:inline-start;
+  float:left;
+  display: flex;
 }
 
 .text_adjust_inline{
