@@ -170,10 +170,7 @@
 /* to clear from floats */
 .clearing {
   clear:both
-}
-.text_adjust_inline{
-  padding-left: 425px;
-}
+
 /*Just in case we need a container */
 .letscontain {
   float: left;
