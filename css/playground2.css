@@ -10,11 +10,17 @@
 }
 
 #main-nav {
-  float: left;
+ 
   width: 100%;
-  background-color: #9bef6691;
+  background-color: #d7cb9cd5;
   padding: 10 px;
   border: 1px solid blue;
+  overflow: hidden;
+}
+#main-nav_container{
+  float: left;
+  width: 100%;
+  position: relative;
 }
 
 #main-nav ul {
@@ -23,18 +29,17 @@
   padding: 0;
   float: left;
   position: relative;
-  left: 0px;
+  left: 50%;
+  
 }
 
 #main-nav ul li {
   float: left;
-  position: relative;
-  left: 25%;
-  border: 2px solid black;
+  position: relative;   
 }
 
 #main-nav ul li a {
-  padding: 10px 25px;
+  padding: 10px 20px;
   display: block;
   text-decoration: none;
   color: black;
@@ -45,9 +50,9 @@
 #main-nav ul li a:hover {
   background-color: #ccc;
   color: black;
-  text-transform:uppercase;
   font-weight:600;
 }
+
 .clear-left {
   clear: left;
   margin: 10px;
@@ -114,7 +119,7 @@
   border: none;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 150%;
-  text-decoration: underline;
+  text-decoration: underline overline;
   position: relative;
   left: 10px;
   
