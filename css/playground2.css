@@ -124,6 +124,7 @@
   left: 10px;
   
 }
+/* Not sure CSS below is needed 
 .img2-container{
   width: 400px;
   height: auto;
@@ -134,19 +135,47 @@
   z-index:1;
   opacity: 1;
 }
+ */ 
 .img-float-generic{
   width: 420 px;
   height: auto;
   padding-left: 3px;
+  float: left;  
+}
+/*This below will be a test to see if we can alternate float right and left */
+.floatright-img{
+  width: 420 px;
+  height: auto;
+  padding-left: 3 px;
+  float: inline-end;
+}
+
+/* will try float inline */
+.floatend_img {
+  width: 420 px;
+  height: auto;
+  padding: 3px;
+  float: inline-end;
+}
+/* try float inline start */
+.floatstart_img {
+  width: 240 px;
+  height: auto;
+  padding: 3px;
+  float:inline-start;
+}
+
+/*Just in case we need a container */
+.letscontain {
   float: left;
-  
-  
+  width: 100%;
+  position: relative;
 }
 .img-float-generic img {
   max-width: 420px;
   max-height: 240px;
   overflow: hidden;
-  float: left;
+  
 }
 
 img {
