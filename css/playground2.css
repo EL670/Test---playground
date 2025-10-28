@@ -10,54 +10,56 @@
 }
 
 #main-nav {
+  display: flex;
+  justify-content: center;
   background-color: #d7cb9cd5;
   border-top: 1px solid blue;
   overflow: hidden;
+  padding: 0;
+  font-family: calibri, sans-serif;
+  
 }
+/*
 #main-nav_container{
-  float: left;
   width: 100%;
   position: relative;
-}
+  text-align: center;
 
+}
+*/
 #main-nav ul {
   list-style-type: none;
-  margin: 0;
+  display: flex;
   padding: 0;
-  float: left;
-  position: relative;
-  left: 50%;
-
 }
 
 #main-nav ul li {
-  float: left;
-  position: relative;
-  right: 50%;
-  display: inline-block;
-
+/*  float: left; */
+  padding:  0 1em;
+ /* margin:  0 1em; */
+ /* right: 50%; */
 }
 
 #main-nav ul li a {
-  padding: 10px 20px;
-  display: block;
   text-decoration: none;
-  color: black;
-  font-family: Calibri, Gill Sans;
-  
-  
+  color: black;  
+  font-weight: bold;
+  padding: 1em 0.5em;  
+  margin:  0;
 }
 #main-nav ul li a:hover {
   background-color: #eeee9a;
   color: black;
   font-weight:600;
+
+  
 }
 
 .clear-left {
-  clear: left;
   margin: 10px;
   padding: 5px;
 }
+  
 .text-container-2{
   background-color:antiquewhite;
   padding: 3px;
@@ -124,10 +126,10 @@
   left: 10px;
   
 }
-/* Not sure CSS below is needed 
+/* Not sure CSS below is needed */
 .img2-container{
   width: 400px;
-  height: auto;
+  height: 200px;
   padding-left: 10px;
   overflow: hidden;
   float: left;
@@ -135,10 +137,10 @@
   z-index:1;
   opacity: 1;
 }
- */ 
-.img-float-generic{
+
+#img-float-generic{
   width: 420 px;
-  height: auto;
+  height: 240px;
   padding-left: 3px;
   float: left;  
 }
@@ -184,9 +186,9 @@
   float: left;
 }
 /*above is to see if we can float image to left of indented text */
-.img-float-generic img {
-  max-width: 420px;
-  max-height: 240px;
+#img-float-generic {
+  max-width: 20%;
+  max-height: auto;
   overflow: hidden;
   
 }
@@ -235,3 +237,7 @@ img {
     z-index: -1;
 }
 
+.container{
+  display: inline-flex;
+
+}
