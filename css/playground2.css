@@ -179,13 +179,54 @@
 
 
 .background-div{
-    background-image: linear-gradient (black, white);
+    background-image: linear-gradient (rgb(171, 32, 32), white);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    /*opacity: 0.7; */
-    height: 100vh; /* Sets the height to full viewport height */
-    /* margin: 0;  Removes default margin */
-    
 }
+
+/*SECTION FOR PAGE 3 */
+#thirdnav-container {
+      margin: 0;
+      padding: 0;
+      box-sizing: content-box;
+      display: flex;
+      background-color:#98fb98;
+      justify-content: center;
+  }
+
+  #thirdnav {
+    /*  display: flex; */
+      justify-content: center;
+      background-color: wheat;
+
+     
+  }
+
+  #thirdnav ul {
+      list-style: none;
+      display: flex;
+      gap: 0rem;
+      margin: 0;
+  }
+
+  #thirdnav ul li {
+      padding: 1rem 1rem;
+      background-color: wheat;
+      margin: 0;
+      box-sizing: content-box;
+  }
+
+  #thirdnav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      padding: 0 1rem;
+  }
+
+  #thirdnav ul li a:hover {
+      color: #f0a500;
+      background-color:aqua;
+      padding: 1rem 1rem;
+      margin: 0;
+      
+  }
 
