@@ -196,7 +196,7 @@
   #thirdnav {
     /*  display: flex; */
       justify-content: center;
-      background-color: wheat;
+   /*   background-color: #98fb98; */
 
      
   }
@@ -210,7 +210,7 @@
 
   #thirdnav ul li {
       padding: 1rem 1rem;
-      background-color: wheat;
+      background-color: #98fb98;
       margin: 0;
       box-sizing: content-box;
   }
@@ -220,6 +220,7 @@
       color: white;
       font-size: 18px;
       padding: 0 1rem;
+      font-family: calibri, sans-serif;
   }
 
   #thirdnav ul li a:hover {
@@ -227,6 +228,7 @@
       background-color:aqua;
       padding: 1rem 1rem;
       margin: 0;
+      font-weight:600;
       
   }
 
