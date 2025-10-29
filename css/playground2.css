@@ -171,56 +171,55 @@
 
 
 .background-div{
-    background-image: linear-gradient (rgb(171, 32, 32), white);
-    background-size: cover;
+    background-image: url("../media/20250916_Image2.png");
+    background-size: 50%;
+    background-repeat:repeat-x;
 }
 
 /*SECTION FOR PAGE 3 */
 #thirdnav-container {
-      margin: 0;
+      margin: 1rem;
       padding: 0;
-      box-sizing: content-box;
+      box-sizing: border-box;
       display: flex;
-      background-color:#98fb98;
-      justify-content: center;
+      gap: 0;
+      align-items: center;
+      height: auto;
+
   }
 
   #thirdnav {
-    /*  display: flex; */
       justify-content: center;
-   /*   background-color: #98fb98; */
-
-     
+      width: 100%;
   }
 
   #thirdnav ul {
-      list-style: none;
-      display: flex;
-      gap: 0rem;
-      margin: 0;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+    background-color:#536878;
+    justify-content: center;
   }
 
   #thirdnav ul li {
-      padding: 1rem 1rem;
-      background-color: #98fb98;
-      margin: 0;
-      box-sizing: content-box;
+      padding: 1rem;
+      gap: 0;
+      text-align: center;
   }
 
   #thirdnav ul li a {
       text-decoration: none;
       color: white;
       font-size: 18px;
-      padding: 0 1rem;
+      padding: 1rem 1rem; 
       font-family: calibri, sans-serif;
+      
   }
 
-  #thirdnav ul li a:hover {
-      color: #f0a500;
+
+  #thirdnav ul li:hover a{
+      color: black;
       background-color:aqua;
-      padding: 1rem 1rem;
-      margin: 0;
-      font-weight:600;
-      
   }
 
