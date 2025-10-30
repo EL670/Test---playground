@@ -221,5 +221,6 @@
   #thirdnavbar ul li a:hover{
       color: black;
       background-color:aqua;
+      font-weight: bold;
   }
 
