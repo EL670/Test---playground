@@ -163,9 +163,9 @@
 
 .background-div{
     background-image: url("../media/20250916_Image2.png");
-    background-size: 50%;
-    background-repeat:repeat-x;
-    height: 100vh;
+    background-size: 33%; 
+    background-repeat: repeat;
+    opacity: 0.7;
 }
 p.quote{
   padding-top:50px;
