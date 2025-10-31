@@ -14,47 +14,7 @@
   margin: 0 auto;
   overflow: hidden;
   }
-/*
-#main-nav {
-  background-color: #d7cb9cd5;
-  border-top: 1px solid blue;
-}
 
-#main-nav{
-  overflow: hidden;
-}
-
-#mainnav-container {
-  text-align: center;
-}
-
-#main-nav ul {
-  list-style-type: none;
-  display: inline-block;
-  padding: 0;
-  margin: 0;
-  vertical-align: top;
-}
-
-#main-nav ul li {
-  float: left; 
-}
-
-#main-nav ul li a {
-  text-decoration: none;
-  color: black;  
-  font-weight: bold;
-  padding: .5em 1em;  
-  font-family: calibri, sans-serif;
-  display: block;
-}
-
-#main-nav ul li a:hover {
-  background-color: #eeee9a;
-  color: black;
-  font-weight:600;  
-}
-*/
 .clear-left {
   margin: 10px;
   padding: 5px;
@@ -69,7 +29,13 @@
   color:rgb(31, 105, 174);
   font-size: 150%;
 }
+/*eliminate white space above background */
 /* background-color - Papaya Whip */
+body.background {
+ margin: 0;
+}
+
+/*   Does it work */
 .firsttext {
   background-color:#ffefd5;
   color: blue;
@@ -165,6 +131,7 @@
     background-image: url("../media/20250916_Image2.png");
     background-size: 33%; 
     background-repeat: repeat;
+    margin-top: 0;
     opacity: 0.7;
 }
 p.quote{
@@ -199,6 +166,7 @@ img.quote_alt {
   #thirdnavbar {
     background-color: #d7cb9cd5;
     border-top: 1px solid blue;
+  
 
   }
   #thirdnavbar {
@@ -207,6 +175,7 @@ img.quote_alt {
 
   #thirdnav-container {
     text-align: center;
+      
   }
 
   #thirdnavbar ul {
