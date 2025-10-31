@@ -187,6 +187,12 @@ img.quote_alt {
   width: auto;
 }
 
+.img-container {
+  height: 240px;
+  width: auto;
+  float:left;
+  margin: 2px;
+}
 /*end alternative */
 
 /*SECTION FOR PAGE 3 */
