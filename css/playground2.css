@@ -121,24 +121,7 @@
   left: 10px;
   
 }
-/* Not sure CSS below is needed */
-.img2-container{
-  width: 400px;
-  height: 200px;
-  padding-left: 10px;
-  overflow: hidden;
-  float: left;
-  padding: 50px;
- 
-  opacity: 1;
-}
 
-#img-float-generic{
-  width: 420 px;
-  height: 240px;
-  padding-left: 3px;
-  float: left;  
-}
 /*This below will be a test to see if we can alternate float right and left */
 .floatright-img{
   width: 420 px;
@@ -184,10 +167,29 @@
     background-repeat:repeat-x;
     height: 100vh;
 }
+p.quote{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+/* Alternative for aligning quote using flex box */
+.quote_alt {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+span {
+  padding: 10px,
+}
+img.quote_alt {
+  height: 200px;
+  width: auto;
+}
+
+/*end alternative */
 
 /*SECTION FOR PAGE 3 */
-
-
   #thirdnavbar {
     background-color: #d7cb9cd5;
     border-top: 1px solid blue;
