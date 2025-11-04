@@ -147,12 +147,7 @@ img.quote_alt {
   width: auto;
 }
 
-.img-container {
-  height: 240px;
-  width: auto;
-  float:left;
-  margin: 2px;
-}
+
 /*end alternative */
 
 /*Navbar section for all pages */
@@ -203,4 +198,30 @@ img.quote_alt {
     background-color: #eeee9a;
     font-weight: bold;
 }
+/* trying out image stuff */
+  .img-container {
+  height: 240px;
+  width: auto;
+  float:left;
+  margin: 2px;
+}
 
+.dropdown {
+  position:relative;
+  max-width: 240px;
+}
+.dropdown-content {
+  display:none;
+  position: absolute;
+  background-color: #f9f9f9;
+  max-width: 240px;
+}
+
+.dropdown:hover .dropdown-content {
+  display:block;
+}
+
+.description {
+  padding: 10px,
+  text-align: center;
+}
