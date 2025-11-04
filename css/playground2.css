@@ -225,3 +225,150 @@ img.quote_alt {
   padding: 10px,
   text-align: center;
 }
+
+/*Page 4 dropdown */
+.Lev-1 {
+  background: none;
+  float: left;
+
+}
+
+.Lev-1 a{
+  color:white;
+  background-color: blue;
+  text-decoration: none;
+  font-family: calibri, sans-serif;
+ 
+}
+
+.Lev-1>ul {
+  margin: 0 auto;
+  width: 80px;
+}
+
+.Lev-1 ul li{
+  display:block;
+  float: left;
+  margin-left: 0px,
+  position: relative;
+
+}
+
+.Lev-1 ul a {
+  float: left;
+  width: 150px;
+  padding: 10px 5px;
+}
+
+.Lev-1 ul a: hover {
+  background: #090;
+
+}
+
+.Lev-1 ul li ul li {
+  float: none;
+  display:block;
+}
+
+.Lev-1 ul li ul {
+  display: none;
+  position: relative;
+  background: #333;
+  top: 0px;
+}
+
+.Lev-1 ul li:hover>ul{
+  display:block;
+}
+
+.Lev-1 ul li a {
+  display:block;
+  
+}
+
+/*Alternative */
+.dropdown{
+  position:relative;
+  display: inline-block;
+  }  
+
+.dropbtn {
+  background-color:blueviolet;
+  color:whitesmoke;
+  padding: 15px;
+  font-size: 22px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border:none;
+}
+
+.dropdown-content {
+  display:none;
+  position:absolute;
+  background-color: aliceblue;
+  min-width: 150px;  
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color:black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display:block;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:90%;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(124, 200, 31);
+}
+
+.dropdown:hover .dropdown-content {
+  display:block;
+}  
+
+.dropdown:hover .dropbth {
+  background-color: #3e8e41;
+}
+
+/*-----Yet another try----- */
+.droopdown {
+  display:inline-block;
+}
+
+.droopdown button {
+  background-color:#680505;
+  color:white;
+  padding: 10px 16px;
+  border:none;
+  cursor: pointer;
+}
+
+.droopdown a {
+  display:block;
+  color: black;
+  text-decoration:none;
+  padding: 10px 16px;
+}
+
+.droopdown .content {
+  display:none;
+  position:absolute;
+  background-color: lightblue;
+  min-width: 120px;
+  box-shadow: 2px 2px 5px darkgoldenrod;
+
+}
+
+.droopdown:hover .content {
+  display:block;
+}
+
+.droopdown:hover button {
+  background-color: lightsalmon;
+}
+
+.droopdown a:hover{
+  background-color:aliceblue;
+
+}
