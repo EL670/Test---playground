@@ -9,7 +9,6 @@
   background-color: #98fb98;
 }
 
-
 .clear-left {
   margin: 10px;
   padding: 5px;
@@ -25,8 +24,6 @@
   font-size: 150%;
 }
 
-
-
 /*   Does it work */
 .firsttext {
   background-color:#ffefd5;
@@ -34,6 +31,8 @@
   border: 3px solid black;
   width: 100%;
   font-family: Arial,sans-serif;  
+  z-index: 2;
+ 
 }
 /*try distinguish by using border */
 .mainbody {
@@ -50,17 +49,7 @@
   float: left;
 }
 /* For Page2 */
-.img1-container {
-  float: left;
-  padding-left: 20px;
-  width: 350px;
-  height: auto;
-  padding-left: 10px;
-  overflow: hidden;
-  float: left;
-  padding: 50px;
-  z-index:1;
-} 
+
 
 .p2nav-container {
   position: absolute;
@@ -120,12 +109,23 @@
 
 
 .background-div{
-    background-image: url("../media/20250916_Image2.png");
+    background-image: url("../media/Image3.png");
     background-size: 33%; 
     background-repeat: repeat;
     margin-top: 0;
-    opacity: 0.7;
+    opacity: 1;
     padding: 5px;
+    z-index:-1;
+    
+}   
+   
+.text-container{
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right:1rem;
+}   
 }
 p.quote{
   padding-top:50px;
@@ -199,11 +199,12 @@ img.quote_alt {
     font-weight: bold;
 }
 /* trying out image stuff */
-  .img-container {
+.img-container {
   height: 240px;
   width: auto;
   float:left;
-  margin: 2px;
+  padding: 2px;
+  disply:flex;
 }
 
 .dropdown {
@@ -370,5 +371,6 @@ img.quote_alt {
 
 .droopdown a:hover{
   background-color:aliceblue;
-
 }
+
+/* -- AND FOR A Dropdown MULTILEVEL -- */
