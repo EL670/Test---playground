@@ -192,7 +192,6 @@ img.quote_alt {
     
 }
 
-
 #thirdnavbar ul li a:hover{
     color: black;
     background-color: #eeee9a;
@@ -204,7 +203,7 @@ img.quote_alt {
   width: auto;
   float:left;
   padding: 2px;
-  disply:flex;
+  display:flex;
 }
 
 .dropdown {
