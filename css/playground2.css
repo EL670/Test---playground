@@ -25,13 +25,13 @@
 }
 
 /*   Does it work */
-.firsttext {
+#firsttext {
   background-color:#ffefd5;
   color: blue;
   border: 3px solid black;
   width: 100%;
   font-family: Arial,sans-serif;  
-  z-index: 2;
+  opacity:1;
  
 }
 /*try distinguish by using border */
@@ -119,12 +119,13 @@
     
 }   
    
-.text-container{
+#text-container{
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
   padding-right:1rem;
+  opacity: 1;
 }   
 }
 p.quote{
@@ -136,9 +137,16 @@ p.quote{
 .quote_alt {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  text-align: center;
+  justify-content: space-between; 
 }
+
+.quote_alt #p {
+  justify-content: center;
+}
+.quote_alt>*:last-child {
+  justify-content:flex-end;
+}
+
 span {
   padding: 10px,
 }
