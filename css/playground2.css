@@ -147,15 +147,10 @@ p.quote{
 .quote_alt {
   display: flex;
   align-items: center;
-justify-content: space-between; 
+  justify-content: space-between; 
 }
 
-.quote_alt p {
-  align-items:center;
-}
-.quote_alt>img {
-  justify-content:flex-end;
-}
+
 
 span {
   padding: 10px,
