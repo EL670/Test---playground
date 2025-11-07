@@ -146,12 +146,19 @@ p.quote{
 /* Alternative for aligning quote using flex box */
 .quote_alt {
   display: flex;
-  justify-content: space-between; 
   align-items: center;
+  flex-wrap: nowrap;
 }
 
-
-
+.quote1 {
+  text-align: center;
+  min-width: 50%;
+}
+.quote2 {
+ 
+  justify-content: right;
+  min-width:50%;
+}
 
 span {
   padding: 10px,
