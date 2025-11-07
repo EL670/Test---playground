@@ -154,9 +154,8 @@ p.quote{
   text-align: center;
   min-width: 50%;
 }
-.quote2 {
- 
-  justify-content: right;
+.quote2 { 
+  text-align: right;
   min-width:50%;
 }
 
