@@ -137,7 +137,7 @@
   padding-right:1rem;
   opacity: 1;
 }   
-}
+
 p.quote{
   padding-top:50px;
   padding-bottom:50px;
@@ -146,18 +146,15 @@ p.quote{
 /* Alternative for aligning quote using flex box */
 .quote_alt {
   display: flex;
-  align-items: center;
   justify-content: space-between; 
+  align-items: center;
 }
+
 
 
 
 span {
   padding: 10px,
-}
-img.quote_alt {
-  height: 200px;
-  width: auto;
 }
 
 
@@ -235,8 +232,8 @@ img.quote_alt {
 }
 
 .description {
-  padding: 10px,
-  text-align: center;
+  padding:10px;
+  text-align:center;
 }
 
 /*Page 4 dropdown */
@@ -262,8 +259,8 @@ img.quote_alt {
 .Lev-1 ul li{
   display:block;
   float: left;
-  margin-left: 0px,
-  position: relative;
+  margin-left: 0px;
+  position:relative;
 
 }
 
@@ -273,7 +270,7 @@ img.quote_alt {
   padding: 10px 5px;
 }
 
-.Lev-1 ul a: hover {
+.Lev-1 ul a:hover {
   background: #090;
 
 }
