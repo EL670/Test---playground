@@ -156,7 +156,8 @@ p.quote{
 }
 .quote2 { 
   text-align: right;
-  min-width:50%;
+  min-width:30%;
+  max-width: 50%;
 }
 
 span {
