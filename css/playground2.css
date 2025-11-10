@@ -146,22 +146,23 @@ p.quote{
 /* Alternative for aligning quote using flex box */
 .quote_alt {
   display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  align-items: center;  
+  gap: 10px;
+  height:200px;
 }
 
-.quote1 {
-  text-align: center;
-  min-width: 50%;
+.quote_alt p{
+  justify-content: center;
+  margin: 1rem;
+  font-style: italic;
 }
-.quote2 { 
-  text-align: right;
-  min-width:30%;
-  max-width: 50%;
-}
-
-span {
-  padding: 10px,
+.quote_alt img { 
+/*  text-align: right; */
+  justify-content:right;
+  height:200px;
+  width: auto;
 }
 
 
