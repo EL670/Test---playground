@@ -153,17 +153,20 @@ p.quote{
   height:200px;
 }
 
+
 .quote_alt p{
-  justify-content: center;
-  margin: 1rem;
   font-style: italic;
+  text-align: center;
+  width:50%;  
 }
+  
 .quote_alt img { 
 /*  text-align: right; */
   justify-content:right;
   height:200px;
   width: auto;
 }
+
 
 
 /*end alternative */
