@@ -153,16 +153,26 @@ p.quote{
   height:200px;
 }
 
+.quote_alt>p{
 
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-style:italic;
+  font-size:125%;
+  margin-left:0;
+  width:50%;
+
+}
+/*
 .quote_alt p{
   font-style: italic;
-  text-align: center;
+  margin-left:0;
   width:50%;  
 }
-  
+*/
+
 .quote_alt img { 
 /*  text-align: right; */
-  justify-content:right;
+  margin-right:0;
   height:200px;
   width: auto;
 }
