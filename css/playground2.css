@@ -12,6 +12,21 @@
   background-color: #98fb98;
 }
 
+body {
+  display:grid;
+  grid-template-rows: auto auto auto;
+  min-height:100vh;
+  
+}
+
+footer{
+  width:100%;
+  background-color: #98fb98;
+  display:grid;
+  grid-template-columns: auto auto;
+}
+ 
+
 .clear-left {
   margin: 0;
   padding: 0px;
@@ -56,7 +71,8 @@
 .initialtextabout{
   font-family:Dihjauti, serif;
   color:#5e4216;
-  font-weight: 700;
+  font-weight: normal;
+  font-size:1.3rem;
 }
 
 /*try distinguish by using border */
@@ -148,6 +164,7 @@ p.quote{
   align-items: center;  
   gap: 10px;
   height:200px;
+  padding-bottom:10%;
 }
 
 .quote_left>p{
