@@ -241,32 +241,43 @@ p.quote{
 }
   */
 
-.dropdown {
-  width:100%; 
+.imagepopup {
+  width: 100%; 
 }
-.dropdown img{
+.imagepopup img{
    height:100px;
    width:auto;
 }
+/*
+.imagepopup img:hover{
+  position:relative;
+  left:50px;
+  height:200px;
+  width:auto;
+}
+  */
 
-.dropdown-content {
+.imagepopup-content {
   display:none;  
 }
 
-.dropdown-content:hover {
+.imagepopup:hover .imagepopup-content {
   display:block;
-
 }
-.dropdown-content img {
+
+.imagepopup-content img {
   height:300px;
   width:auto;
 }  
 
-.dropdown-content p {
-  padding:10px;
-  text-align:center;
+.imagepopup p {
+  padding-left:50px;
+  text-align:left;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font: size 1.2rem;
+  font: size 1.5rem;
+  font-weight:700;
+  color:magenta;
+  border-top:solid green;
 }
 
 /*Page 4 dropdown */
