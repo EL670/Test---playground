@@ -111,12 +111,10 @@ footer{
  
 }
 .firstgrid img{
-  width:80%;
-  max-height: 240px;;
-  
+  width:100%;
+  max-height: 240px;
+  justify-self: right;  
 }
-
-
 /* to clear from floats */
 .clearing {
   clear:both
