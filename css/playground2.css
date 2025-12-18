@@ -27,10 +27,6 @@ footer{
 }
  
 
-.clear-left {
-  margin: 0;
-  padding: 0px;
-}
   
 #text-container-2{
   background-color:antiquewhite;
@@ -110,12 +106,12 @@ footer{
 
 .firstgrid {
   display:grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   column-gap: 10px;
  
 }
 .firstgrid img{
-  width:100%;
+  width:80%;
   max-height: 240px;;
   
 }
@@ -163,8 +159,8 @@ p.quote{
   justify-content:space-between;
   align-items: center;  
   gap: 10px;
-  height:200px;
-  padding-bottom:10%;
+  
+  padding-bottom:5%;
 }
 
 .quote_left>p{
