@@ -28,12 +28,13 @@
 #firsttext {
   background-color:#ffefd5;
   color: blue;
-  border: 3px solid black;
+  border: 2px solid black;
   width: 100%;
   font-family: Arial,sans-serif;  
-  opacity:1;
- 
+  font-size: 1.5rem; 
 }
+
+
 /*try distinguish by using border */
 .mainbody {
   background-color: #87cefa;
@@ -118,7 +119,7 @@
       
 }
 
-#show_bg_2 {
+.show_bg_2 {
   background-image:
   linear-gradient(to top, rgba(245,246,252,0),rgba(97, 98, 101, 0.73)),
    url("../media/Image3.png");
@@ -144,31 +145,25 @@ p.quote{
 }
 
 /* Alternative for aligning quote using flex box */
-.quote_alt {
-  display: flex;
-  flex-wrap:wrap;
+.quote_left {
+  display: grid;
+  grid-template-columns: auto auto;
   justify-content:space-between;
   align-items: center;  
   gap: 10px;
   height:200px;
 }
 
-.quote_alt>p{
+.quote_left>p{
 
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-style:italic;
-  font-size:125%;
+  font-size:1.2rem;
   margin-left:0;
-  width:50%;
+  width:100%;
 
 }
-/*
-.quote_alt p{
-  font-style: italic;
-  margin-left:0;
-  width:50%;  
-}
-*/
+
 
 .quote_alt img { 
 /*  text-align: right; */
@@ -191,8 +186,6 @@ p.quote{
 #thirdnavbar {
   background-color: #d7cb9cd5;
   border-top: 1px solid blue;
-
-
 }
 #thirdnavbar {
   overflow: hidden;
@@ -404,3 +397,56 @@ p.quote{
 }
 
 /* -- AND FOR A Dropdown MULTILEVEL -- */
+
+.drop_new{
+  display:inline-flex;
+  flex-direction: column; 
+}
+
+
+.drop_new button{
+  background-color: #93dc95;
+  color:rgb(77, 59, 199);
+  margin:0px 0px;
+  padding: 10px 10px;
+  border:none;
+  cursor: pointer;
+  display:inline-block;
+}
+
+.drop_new button:hover {
+  background-color: #eeee9a;
+}
+
+.drop_new ul{
+  display:none;
+  list-style-type: none; 
+}
+
+.drop_new:hover ul{
+  vertical-align: top;
+  display:inline-block;
+  text-decoration: none;
+   margin-left:0px;
+ 
+}
+  
+
+.drop_new ul li{
+  color: black;
+  background-color: lightgreen;
+  padding: 2px 10px;
+ 
+}
+
+.drop_new ul li a{
+  color:red;
+  text-decoration: none;
+}
+
+.drop_new ul li:hover{
+  background-color: lightgoldenrodyellow;
+}
+.drop_new ul li a:hover{
+  color:black;
+}
