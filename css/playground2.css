@@ -38,7 +38,26 @@
   width: 100%;
   font-size: 1.25rem; 
 }
+.firsttext h2{
+  margin-top:0px;
+}
 
+.show_bg_2 {
+  background-image:
+  linear-gradient(to top, rgba(245,246,252,0),rgba(209, 213, 223, 0.73)),
+   url("../media/Image3.png");
+  background-size: 33%;
+  background-repeat: repeat;
+  margin-top: 0;
+  opacity: 1;
+  padding:5px;
+}
+
+.initialtextabout{
+  font-family:Dihjauti, serif;
+  color:#5e4216;
+  font-weight: 700;
+}
 
 /*try distinguish by using border */
 .mainbody {
@@ -72,22 +91,6 @@
   
 }
 
-/*This below will be a test to see if we can alternate float right and left */
-.floatright-img{
-  width: 420 px;
-  height: auto;
-  padding-left: 3 px;
-  float: inline-end;
-}
-
-/* will try float inline */
-.floatright_img {
-  width: 420 px;
-  height: auto;
-  padding: 3px;
-  float: right;
-  display: flex;
-}
 
 .firstgrid {
   display:grid;
@@ -108,12 +111,7 @@
 } 
 
 
-/*Below CSS enables 3 images to float on one line */
-#img-float-generic {
-  max-width: 20%;
-  max-height: auto;
-  overflow: hidden;  
-}
+
 
 
 .background-div{
@@ -126,16 +124,7 @@
       
 }
 
-.show_bg_2 {
-  background-image:
-  linear-gradient(to top, rgba(245,246,252,0),rgba(178, 181, 188, 0.73)),
-   url("../media/Image3.png");
-  background-size: 33%;
-  background-repeat: repeat;
-  margin-top: 0;
-  opacity: 1;
-  padding:5px;
-}
+
    
 #text-container{
   max-width: 100%;
