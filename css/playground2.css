@@ -13,8 +13,8 @@
 }
 
 .clear-left {
-  margin: 10px;
-  padding: 5px;
+  margin: 0;
+  padding: 0px;
 }
   
 #text-container-2{
@@ -46,7 +46,7 @@
   color: black;
   padding: 5px;
   margin: 0px;
-  border:  3px solid #536878;
+  border:  3px dashed #536878;
   font-family: Calibri, sans-serif;
   width: 100%;
 }
@@ -91,14 +91,19 @@
   float: right;
   display: flex;
 }
-/* try float inline start */
-.floatleft_img {
-  width: 420px;
-  height: auto;
-  padding: 3px;
-  float:left;
-  display: flex;
+
+.firstgrid {
+  display:grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 0px;
+ 
 }
+.firstgrid img{
+  width:100%;
+  max-height: 240px;;
+  
+}
+
 
 /* to clear from floats */
 .clearing {
@@ -226,7 +231,7 @@ p.quote{
     background-color: #eeee9a;
     font-weight: bold;
 }
-/* trying out image stuff */
+/* trying out image stuff 
 .img-container {
   height: 240px;
   width: auto;
@@ -234,6 +239,7 @@ p.quote{
   padding: 2px;
   display:flex;
 }
+  */
 
 .dropdown {
   width:100%; 
