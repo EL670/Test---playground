@@ -103,10 +103,22 @@ footer{
   
 }
 
+@media screen and (max-width: 400px) {
+  .firstgrid {
+    display:grid;
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+  }
+  .firstgrid img {
+    width:100%;
+    object-fit:cover;
+    justify-self: center;
+  }
+}
 
 .firstgrid {
   display:grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   column-gap: 10px;
  
 }
@@ -128,18 +140,6 @@ footer{
 /*TRY MEDIA QUERY */
 /*Will need to resize fonts */
 
-@media screen and (max-width: 800px) {
-  .firstgrid {
-    display:grid;
-    grid-template-columns: auto;
-    row-gap: 15px;
-  }
-  .firstgrid img {
-    width:100%;
-    object-fit:cover;
-    justify-self: center;
-  }
-}
 
 
 
