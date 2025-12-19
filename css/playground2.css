@@ -106,7 +106,7 @@ footer{
 @media screen and (max-width: 400px) {
   .firstgrid {
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px,1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
     row-gap: 15px;
   }
   .firstgrid img {
@@ -121,10 +121,13 @@ footer{
     font-size:1.5rem;
   }
   .h1 {
-    font-size: 2rem;
+    font-size: 2em;
   }
   .h2 {
-    font-size: 1.5rem;
+    font-size: 1.5em;
+  }
+  .p {
+    font-size: 1em; 
   }
 }
 
