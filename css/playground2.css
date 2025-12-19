@@ -112,15 +112,34 @@ footer{
 }
 .firstgrid img{
   width:100%;
-  max-height: 240px;
+  height:100%;
+  object-fit:cover;
   justify-self: right;  
+}
+
+.firstgrid p{
+  align-self: center;
 }
 /* to clear from floats */
 .clearing {
   clear:both
 } 
 
+/*TRY MEDIA QUERY */
+/*Will need to resize fonts */
 
+@media screen and (max-width: 800px) {
+  .firstgrid {
+    display:grid;
+    grid-template-columns: auto;
+    row-gap: 15px;
+  }
+  .firstgrid img {
+    width:100%;
+    object-fit:cover;
+    justify-self: center;
+  }
+}
 
 
 
@@ -145,10 +164,7 @@ footer{
   opacity: 1;
 }   
 
-p.quote{
-  padding-top:50px;
-  padding-bottom:50px;
-}
+
 
 /* Alternative for aligning quote using flex box */
 .quote_left {
@@ -157,7 +173,6 @@ p.quote{
   justify-content:space-between;
   align-items: center;  
   gap: 10px;
-  
   padding-bottom:5%;
 }
 
