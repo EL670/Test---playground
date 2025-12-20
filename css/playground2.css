@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Dihjauti';
-  src: url("C:\Users\Evan_\kDrive3\2025WebDev\Test---playground\fonts");
+  font-family: 'DihjautiS-Regular';
+  src: url("https://github.com/EL670/Test---playground/tree/main/fonts");
 }
 .intro {
   font-family: Arial, Helvetica, sans-serif;
@@ -11,7 +11,52 @@
   margin: 0%;
   background-color: #98fb98;
 }
+/*Navbar section for all pages */
+.nav-container {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align:center;
+}
 
+#thirdnavbar {
+  background-color: #d7cb9cd5;
+  border-top: 1px solid blue;
+  overflow: hidden;
+}
+
+/*
+#thirdnav-container {
+  text-align: center;    
+}
+  */
+
+#thirdnavbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#thirdnavbar ul li {
+    float: left;
+}
+
+#thirdnavbar ul li a {
+    display: block;
+    padding: 10px 20px;
+    color:#680505;
+    text-decoration: none;
+    font-family: calibri, sans-serif;
+    
+}
+
+#thirdnavbar ul li a:hover{
+    color: black;
+    background-color: #eeee9a;
+    font-weight: normal;
+}
 body {
   display:grid;
   grid-template-rows: auto auto auto;
@@ -27,18 +72,6 @@ footer{
 }
  
 
-  
-#text-container-2{
-  background-color:antiquewhite;
-  padding: 3px;
-  margin: 5 px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 500;
-  color:rgb(31, 105, 174);
-  font-size: 1.2rem;
-
-}
-
 /*   Does it work */
 .firsttext {
   font-family: Dihjauti, serif;
@@ -47,8 +80,10 @@ footer{
   color: blue;
   border:none;
   width: 100%;
-  font-size: 1.25rem; 
+  font-size: 1.1rem; 
+  
 }
+/*TRY NORMALIZE CSS */
 .firsttext h2{
   margin-top:0px;
 }
@@ -68,7 +103,7 @@ footer{
   font-family:Dihjauti, serif;
   color:#5e4216;
   font-weight: normal;
-  font-size:1.3rem;
+  font-size:1.1rem;
 }
 
 /*try distinguish by using border */
@@ -267,51 +302,7 @@ footer{
 
 /*end alternative */
 
-/*Navbar section for all pages */
-.nav-container {
-  width: 960px;
-  margin: 0 auto;
-  overflow: hidden;
-}
 
-#thirdnavbar {
-  background-color: #d7cb9cd5;
-  border-top: 1px solid blue;
-}
-#thirdnavbar {
-  overflow: hidden;
-}
-
-#thirdnav-container {
-  text-align: center;    
-}
-
-#thirdnavbar ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: inline-block;
-  vertical-align: top;
-}
-
-#thirdnavbar ul li {
-    float: left;
-}
-
-#thirdnavbar ul li a {
-    display: block;
-    padding: 10px 20px;
-    color:#680505;
-    text-decoration: none;
-    font-family: calibri, sans-serif;
-    
-}
-
-#thirdnavbar ul li a:hover{
-    color: black;
-    background-color: #eeee9a;
-    font-weight: bold;
-}
 /* trying out image stuff 
 .img-container {
   height: 240px;
