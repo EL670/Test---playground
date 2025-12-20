@@ -214,7 +214,7 @@ footer{
   height:240px;
   width: auto;
 }
-}
+
 
 
 /* try FLEX instead 
@@ -227,11 +227,11 @@ footer{
 */
 
 .firstflex img {
-  width:200px;
+  width:20vw;
   height:auto;
 }
 .firstflex p{
-  margin-left:0;
+  margin-left:2em;
   align-self: center;
 }
 /* to clear from floats */
