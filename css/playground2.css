@@ -201,20 +201,6 @@ footer{
   width: auto;
 }
 
-
-/*end alternative */
-
-
-/* trying out image stuff 
-.img-container {
-  height: 240px;
-  width: auto;
-  float:left;
-  padding: 2px;
-  display:flex;
-}
-  */
-
 .imagepopup {
   width: 100%; 
 }
@@ -222,14 +208,6 @@ footer{
    height:100px;
    width:auto;
 }
-/*
-.imagepopup img:hover{
-  position:relative;
-  left:50px;
-  height:200px;
-  width:auto;
-}
-  */
 
 .imagepopup-content {
   display:none;  
@@ -239,9 +217,9 @@ footer{
   display:block;
 }
 
-.imagepopup-content img {
-  height:300px;
-  width:auto;
+.imagepopup-content img {  
+  width:100vw;
+  height:auto;
 }  
 
 .imagepopup p {
@@ -258,7 +236,6 @@ footer{
 .Lev-1 {
   background: none;
   float: left;
-
 }
 
 .Lev-1 a{
@@ -400,60 +377,10 @@ footer{
   background-color:aliceblue;
 }
 
-/* -- AND FOR A Dropdown MULTILEVEL -- */
-
-.drop_new{
-  display:inline-flex;
-  flex-direction: column; 
-}
 
 
-.drop_new button{
-  background-color: #93dc95;
-  color:rgb(77, 59, 199);
-  margin:0px 0px;
-  padding: 10px 10px;
-  border:none;
-  cursor: pointer;
-  display:inline-block;
-}
 
-.drop_new button:hover {
-  background-color: #eeee9a;
-}
 
-.drop_new ul{
-  display:none;
-  list-style-type: none; 
-}
-
-.drop_new:hover ul{
-  vertical-align: top;
-  display:inline-block;
-  text-decoration: none;
-   margin-left:0px;
- 
-}
-  
-
-.drop_new ul li{
-  color: black;
-  background-color: lightgreen;
-  padding: 2px 10px;
- 
-}
-
-.drop_new ul li a{
-  color:red;
-  text-decoration: none;
-}
-
-.drop_new ul li:hover{
-  background-color: lightgoldenrodyellow;
-}
-.drop_new ul li a:hover{
-  color:black;
-}
 /* START OF MEDIA QUERY */
 @media screen and (max-width:480px) { 
 
@@ -485,14 +412,6 @@ footer{
   }
   
   .quote_left {
-/*    display: grid;
-    grid-template-rows: auto auto;
-    padding-top:3vh;
-    padding-bottom:3vh;
-    width:100vw;
-    background-color: orange;
-*/
-
     display:flex;
     flex-direction:column;
     background-color: orange;
@@ -527,6 +446,49 @@ footer{
   .p {
     font-size: 1em; 
   }
+
+
+#thirdnavbar {
+  background-color: #d7cb9cd5;
+  border-top: 1px solid blue;
+  overflow: hidden;
+}
+
+.nav-container {
+  width: 100vw;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align:center;
+}
+
+#thirdnavbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction:column;
+  vertical-align: top;
+}
+
+#thirdnavbar ul li {
+    float:left;
+ 
+}
+
+#thirdnavbar ul li a {
+    display: block;
+    padding: 10px 20px;
+    color:#680505;
+    text-decoration: none;
+    font-family: calibri, sans-serif;
+ }
+
+#thirdnavbar ul li a:hover{
+    color: black;
+    background-color: #eeee9a;
+    font-weight: normal;
+}
+
 }
 
 /* End of MEDIA QUERY */
