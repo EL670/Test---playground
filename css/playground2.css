@@ -207,8 +207,35 @@ footer{
 .imagepopup img{
    height:100px;
    width:auto;
+   
 }
 
+/*for trying Transform */
+.imagepopup img:hover {
+  transform:scale(2,2);
+  translate:100px;
+
+}
+
+/*Works but does not include p with text */
+
+/* 
+.imagepopup-content {
+  display:none;
+}
+
+.imagepopup:hover .imagepopup-content {
+  display:block;
+  transform:scale(2,2);
+  translate:100px;
+  height:auto;
+  position:relative;
+  top: -100px;
+  color:magenta;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:1.5rem;
+}  */
+/*Let's try transform INSTEAD 
 .imagepopup-content {
   display:none;
   transition-property:color,position;
@@ -238,6 +265,8 @@ footer{
   color:magenta;
   border-top:solid green;
 }
+
+*/
 
 /*Page 4 dropdown */
 .Lev-1 {
