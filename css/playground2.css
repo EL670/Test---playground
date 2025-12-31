@@ -210,15 +210,22 @@ footer{
 }
 
 .imagepopup-content {
-  display:none;  
+  display:none;
+  transition-property:color,position;
+  transition-duration: .5s;  
 }
 
 .imagepopup:hover .imagepopup-content {
   display:block;
+
+  height:auto;
+  position:relative;
+  top: -100px;
+  
 }
 
 .imagepopup-content img {  
-  width:100vw;
+  width:600px;
   height:auto;
 }  
 
@@ -448,7 +455,7 @@ footer{
   }
 
 
-#thirdnavbar {
+ #thirdnavbar { 
   background-color: #d7cb9cd5;
   border-top: 1px solid blue;
   overflow: hidden;
