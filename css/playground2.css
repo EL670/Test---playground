@@ -202,18 +202,22 @@ footer{
 }
 
 .imagepopup {
-  width: 100%; 
+  display:inline-block; 
 }
 .imagepopup img{
    height:100px;
-   width:auto;
-   
+   width:auto;   
 }
 
 /*for trying Transform */
-.imagepopup img:hover {
+.imagepopup:hover {
   transform:scale(2,2);
-  translate:100px;
+  translate:200px 200px;
+  display:visible;
+}
+
+.imagepopup img{
+  transform:inherit;
 }
 .imagepopup p{
   transform:inherit;
