@@ -209,10 +209,10 @@ footer{
    width:auto;   
 }
 
-/*for trying Transform */
+/*for trying Transform .NEED TO FIX TRANSLATE*/
 .imagepopup:hover {
   transform:scale(2,2);
-  translate:200px 200px;
+  translate:300px 200px;
   display:visible;
 }
 
