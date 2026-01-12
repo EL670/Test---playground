@@ -51,6 +51,14 @@
   <!--  <div class ="footercaption"> -->
       <p>This website is home-made</p>
       <p>AND still under construction!</p>
+      <p id="year"></p>
+      <script>
+        const currentDate = new Date();
+        const year = currentDate.getFullYear();
+        const month =currentDate.getMonth();
+        const day =currentDate.getDate();
+        document.getElementById("year").innerHTML = "Current Year: " + day +" " + month +1 + " "+ year;
+      </script>
 
   <!--  </div> -->
   </footer>
