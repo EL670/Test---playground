@@ -59,8 +59,12 @@
         const day =currentDate.getDate();
         document.getElementById("year").innerHTML = "Current Year: " + day +" " + month +1 + " "+ year;
       </script>
+      <h1 id="date3">Year is </h1>
       <script>
-        document.write("<h1>year</h1>");
+        <!--document.getElementById("date3").innerHTML ="Year is "+year; -->
+        const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        const currentMonth = monthNames[new Date().getMonth()];
+        document.getElementById("date3").innerHTML ="Date is " +currentMonth+" "+year;
       </script>
 
   <!--  </div> -->
