@@ -487,7 +487,7 @@ footer{
   .quote_left {
     display:flex;
     flex-direction:column;
-    background-color: orange;
+    background-color: rgb(142, 194, 59);
   }
 
   .quote_left>p{
